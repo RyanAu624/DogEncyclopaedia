@@ -16,7 +16,7 @@ struct SearchBarView: View {
             .frame(height: 50)
             .background(.white)
             .cornerRadius(7)
-            .shadow(color: .gray, radius: 5, x: 0, y: 0)
+            .shadow(color: .gray, radius: 4, x: 0, y: 0)
     }
 }
 

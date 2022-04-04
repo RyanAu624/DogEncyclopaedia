@@ -23,8 +23,6 @@ struct CardView: View {
                 .foregroundColor(.primary)
                 .fontWeight(.medium)
                 .padding(.bottom, 10)
-                .frame(alignment: .topLeading)
-                
         }
     }
 }

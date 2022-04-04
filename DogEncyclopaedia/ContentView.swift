@@ -17,34 +17,35 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        List {
-            HStack {
+        NavigationView {
+            List {
                 Image("HomeIcon")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 300, height: 80, alignment: .leading)
-                Button(action: {
-                    
-                }) {
-                    Image(systemName: "camera")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+                SearchBarView()
+                    .padding(.top, 20)
+                    .padding(.bottom)
+                    .listRowSeparator(.hidden)
+                Text("Variety List")
+                    .fontWeight(.bold)
+                    .font(.title)
+                ForEach  (0..<5){ item in
+                    CardView(dogImage: "blankImage", dogVariety: "Dog Variety")
+                }
+                .listRowSeparator(.hidden)
+            }
+            .listStyle(PlainListStyle())
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        
+                    }) {
+                        Image(systemName: "camera")
+                    }
                 }
             }
-            .listRowSeparator(.hidden)
-            .padding(.bottom, 10)
-            SearchBarView()
-                .padding(.bottom)
-                .listRowSeparator(.hidden)
-            Text("Variety List")
-                .fontWeight(.bold)
-                .font(.title)
-            ForEach  (0..<5){ item in
-                CardView(dogImage: "blankImage", dogVariety: "dog")
-            }
-            .listRowSeparator(.hidden)
         }
-        .listStyle(PlainListStyle())
     }
 }
 
