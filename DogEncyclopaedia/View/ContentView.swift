@@ -14,6 +14,8 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
+    
+    
 
     var body: some View {
         NavigationView {
@@ -29,12 +31,13 @@ struct ContentView: View {
                 Text("Variety List")
                     .fontWeight(.bold)
                     .font(.title)
-                ForEach  (0..<5){ item in
+                ForEach  (dogs){ dog in
                     NavigationLink {
-                        DogDetailView(dogImage: "blankImage", dogVariety: "Dog Variety", dogVarietyDetail: "The Pekingese (also spelled Pekinese) is a breed of toy dog, originating in China. The breed was favored by royalty of the Chinese Imperial court as both a lap dog and companion dog, and its name refers to the city of Peking (Beijing) where the Forbidden City is located. The breed has several characteristics and health issues related to its unique appearance. Because of its desirable characteristics, the Pekingese has been part of the development of designer crossbreeds, such as the Peekapoo (crossed with a poodle) and Peke-a-tese (crossed with a Maltese).")
+                        DogDetailView(dogImage: "\(dog.dogImage)", dogVariety: "\(dog.dogVariety)", dogVarietyDetail: "\(dog.dogVarietyDetail)")
                     } label: {
-                        CardView(dogImage: "blankImage", dogVariety: "Dog Variety")
+                        CardView(dogImage: "\(dog.dogImage)", dogVariety: "\(dog.dogVariety)")
                     }
+                    
                 }
                 .listRowSeparator(.hidden)
             }

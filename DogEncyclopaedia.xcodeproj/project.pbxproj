@@ -64,11 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */,
-				9A29154227F84888000C7B2D /* ContentView.swift */,
-				9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */,
-				9AE1C95F27FACAB700EABF23 /* CardView.swift */,
-				9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */,
-				9A5A55C727FDB01800D6E883 /* Dog.swift */,
+				9A5A55C927FDCC8100D6E883 /* View */,
+				9A5A55CA27FDCCA200D6E883 /* Model */,
 				9A29154927F8488A000C7B2D /* Persistence.swift */,
 				9A29154427F8488A000C7B2D /* Assets.xcassets */,
 				9A29154B27F8488A000C7B2D /* DogEncyclopaedia.xcdatamodeld */,
@@ -83,6 +80,25 @@
 				9A29154727F8488A000C7B2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A5A55C927FDCC8100D6E883 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A29154227F84888000C7B2D /* ContentView.swift */,
+				9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */,
+				9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */,
+				9AE1C95F27FACAB700EABF23 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A5A55CA27FDCCA200D6E883 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A5A55C727FDB01800D6E883 /* Dog.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
