@@ -13,6 +13,8 @@
 		9A29154827F8488A000C7B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A29154727F8488A000C7B2D /* Preview Assets.xcassets */; };
 		9A29154A27F8488A000C7B2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154927F8488A000C7B2D /* Persistence.swift */; };
 		9A29154D27F8488A000C7B2D /* DogEncyclopaedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154B27F8488A000C7B2D /* DogEncyclopaedia.xcdatamodeld */; };
+		9A5A55C827FDB01800D6E883 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A55C727FDB01800D6E883 /* Dog.swift */; };
+		9A9CA1C727FD9E6500A65E3F /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */; };
 		9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1C95F27FACAB700EABF23 /* CardView.swift */; };
 		9AE1C96427FAD46C00EABF23 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,8 @@
 		9A29154727F8488A000C7B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A29154927F8488A000C7B2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9A29154C27F8488A000C7B2D /* DogEncyclopaedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogEncyclopaedia.xcdatamodel; sourceTree = "<group>"; };
+		9A5A55C727FDB01800D6E883 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
 		9AE1C95F27FACAB700EABF23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,9 +65,11 @@
 			children = (
 				9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */,
 				9A29154227F84888000C7B2D /* ContentView.swift */,
-				9A29154927F8488A000C7B2D /* Persistence.swift */,
+				9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */,
 				9AE1C95F27FACAB700EABF23 /* CardView.swift */,
 				9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */,
+				9A5A55C727FDB01800D6E883 /* Dog.swift */,
+				9A29154927F8488A000C7B2D /* Persistence.swift */,
 				9A29154427F8488A000C7B2D /* Assets.xcassets */,
 				9A29154B27F8488A000C7B2D /* DogEncyclopaedia.xcdatamodeld */,
 				9A29154627F8488A000C7B2D /* Preview Content */,
@@ -155,6 +161,8 @@
 				9AE1C96427FAD46C00EABF23 /* SearchBarView.swift in Sources */,
 				9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */,
 				9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */,
+				9A5A55C827FDB01800D6E883 /* Dog.swift in Sources */,
+				9A9CA1C727FD9E6500A65E3F /* DogDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

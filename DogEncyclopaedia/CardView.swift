@@ -19,7 +19,7 @@ struct CardView: View {
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(15)
             Text(dogVariety)
-                .font(.title)
+                .font(.title2)
                 .foregroundColor(.primary)
                 .fontWeight(.medium)
                 .padding(.bottom, 10)
