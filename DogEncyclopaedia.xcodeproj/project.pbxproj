@@ -12,13 +12,12 @@
 		854322F927FFFA8000CF5392 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854322F827FFFA8000CF5392 /* ReadData.swift */; };
 		8548952F280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8548952E280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel */; };
 		9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */; };
-		9A29154327F84888000C7B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154227F84888000C7B2D /* ContentView.swift */; };
+		9A29154327F84888000C7B2D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154227F84888000C7B2D /* HomeView.swift */; };
 		9A29154527F8488A000C7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A29154427F8488A000C7B2D /* Assets.xcassets */; };
 		9A29154827F8488A000C7B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A29154727F8488A000C7B2D /* Preview Assets.xcassets */; };
 		9A5A55C827FDB01800D6E883 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A55C727FDB01800D6E883 /* Dog.swift */; };
 		9A9CA1C727FD9E6500A65E3F /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */; };
 		9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1C95F27FACAB700EABF23 /* CardView.swift */; };
-		9AE1C96427FAD46C00EABF23 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,13 +27,12 @@
 		8548952E280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogEncyclopaediaClassifierModel.mlmodel; sourceTree = "<group>"; };
 		9A29153D27F84888000C7B2D /* DogEncyclopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogEncyclopaedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopaediaApp.swift; sourceTree = "<group>"; };
-		9A29154227F84888000C7B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A29154227F84888000C7B2D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9A29154427F8488A000C7B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A29154727F8488A000C7B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A5A55C727FDB01800D6E883 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
 		9AE1C95F27FACAB700EABF23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +97,8 @@
 		9A5A55C927FDCC8100D6E883 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A29154227F84888000C7B2D /* ContentView.swift */,
+				9A29154227F84888000C7B2D /* HomeView.swift */,
 				9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */,
-				9AE1C96327FAD46C00EABF23 /* SearchBarView.swift */,
 				9AE1C95F27FACAB700EABF23 /* CardView.swift */,
 			);
 			path = View;
@@ -185,9 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A29154327F84888000C7B2D /* ContentView.swift in Sources */,
+				9A29154327F84888000C7B2D /* HomeView.swift in Sources */,
 				854322F427FFFA0E00CF5392 /* UIImage+Extension.swift in Sources */,
-				9AE1C96427FAD46C00EABF23 /* SearchBarView.swift in Sources */,
 				9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */,
 				8548952F280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel in Sources */,
 				9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */,

@@ -25,6 +25,7 @@ struct DogDetailView: View {
                     .fontWeight(.medium)
                     .padding(.bottom, 20)
                 Text(dogVarietyDetail)
+                Spacer()
             }
             .padding()
     }
