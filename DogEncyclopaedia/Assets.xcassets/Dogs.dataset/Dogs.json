@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "dog-name-en": "Pekingese",
+        "dog-name-cn": "北京犬",
+        "description": "The Pekingese (also spelled Pekinese) is a breed of toy dog, originating in China. The breed was favored by royalty of the Chinese Imperial court as both a lap dog and companion dog, and its name refers to the city of Peking (Beijing) where the Forbidden City is located. The breed has several characteristics and health issues related to its unique appearance. Because of its desirable characteristics, the Pekingese has been part of the development of designer crossbreeds, such as the Peekapoo (crossed with a poodle) and Peke-a-tese (crossed with a Maltese)."
+    },
+    {
+        "id": 2,
+        "dog-name-en": "Shiba Inu",
+        "dog-name-cn": "柴犬",
+        "description": "The Shiba Inu is a breed of hunting dog from Japan. A small-to-medium breed, it is the smallest of the six original and distinct spitz breeds of dog native to Japan.A small, alert, and agile dog that copes very well with mountainous terrain and hiking trails, the Shiba Inu was originally bred for hunting.It looks similar to and is often mistaken for other Japanese dog breeds such as the Akita Inu or Hokkaido, but the Shiba Inu is a different breed with a distinct blood line, temperament, and smaller size than other Japanese dog breeds."
+    },
+    {
+        "id": 3,
+        "dog-name-en": "Akita",
+        "dog-name-cn": "秋田犬",
+        "description": "The Akita is a large breed of dog originating from the mountainous regions of northern Japan. The two separate varieties of Akita are a Japanese strain, commonly called Akita Inu (inu means dog in Japanese) or Japanese Akita, and an American strain, known as the Akita or American Akita. The Japanese strain occurs in a narrow palette of colors, with all other colors considered atypical of the breed, while the American strain comes in all dog colors. The Akita has a short double coat similar to that of many other northern spitz breeds such as the Siberian Husky, but long-coated dogs can also be found in many litters due to a recessive gene.The Akita is a powerful, independent, and dominant breed, commonly aloof with strangers, but affectionate with family members. As a breed, Akitas are generally hardy."
+    },
+    {
+        "id": 4,
+        "dog-name-en": "Tang Dog",
+        "dog-name-cn": "唐狗",
+        "description": "The Tang Dog is an ancient medium-sized dog breed indigenous to southern China. Tang dogs are prized as a companion and watch dog but are also occasionally used for hunting and as meat dogs in China."
+    },
+    {
+        "id": 5,
+        "dog-name-en": "Husky",
+        "dog-name-cn": "哈士奇",
+        "description": "Husky is a general term for a dog used in the polar regions, primarily and specifically for work as sled dogs. It refers to a traditional northern type, notable for its cold-weather tolerance and overall hardiness. Though dogs such as the AKC/CKC-registered Alaskan Malamute may not contain 'Husky' in their official name, the term still encompasses dogs of their type.[citation needed] Modern racing huskies that maintain arctic breed traits (also known as Alaskan huskies) represent an ever-changing crossbreed of the fastest dogs. Huskies have continued to be used in sled-dog racing, as well as expedition and trek style tour businesses, and as a means of essential transportation in rural communities. Huskies are also kept as pets, and groups work to find new pet homes for retired racing and adventure-trekking dogs."
+    },
+    {
+        "id": 6,
+        "dog-name-en": "Welsh Corgi",
+        "dog-name-cn": "哥基",
+        "description": "The Welsh Corg is a small type of herding dog that originated in Wales. The name \"corgi\" is derived from the Welsh words \"cor\" and \"ci\" (which is mutated to ‘gi’), meaning \"dwarf\" and \"dog\", respectively. Two separate breeds are recognized: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. There are physical differences between the two different breeds. According to the breed standards, overall the Cardigan is larger, both in weight and height. Their tails are of different shapes, and docking had previously been performed. Historically, the Pembroke has been attributed to the influx of dogs alongside Flemish weavers from around the 10th century, while the Cardigan is attributed to the dogs brought with Norse settlers, in particular a common ancestor of the Swedish Vallhund. The Pembroke is the more popular of the two, yet still appears on The Kennel Club's vulnerable dog breeds of the United Kingdom list. The Pembroke Welsh Corgi gained in popularity because the Queen has personally owned more than 30 Pembrokes or Corgi-Dachshund crosses, known as dorgis."
+    },
+    {
+        "id": 7,
+        "dog-name-en": "Chihuahua",
+        "dog-name-cn": "芝娃娃",
+        "description": "The Chihuahua is one of the smallest breeds of dog, and is named after the Mexican state of Chihuahua. Chihuahuas remained a rarity until the early 20th century, and the American Kennel Club did not register a Chihuahua until 1904. In a 1520 letter, Hernan Cortés wrote that the Aztecs raised and sold the little dogs as food. Colonial records refer to small, nearly hairless dogs at the beginning of the 19th century, one of which claims 16th-century conquistadores found them plentiful in the region later known as Chihuahua."
+    },
+    {
+        "id": 8,
+        "dog-name-en": "Dachshund",
+        "dog-name-cn": "臘腸犬",
+        "description": "The dachshund, also known as the wiener dog, badger dog, and sausage dog, is a short-legged, long-bodied, hound-type dog breed. They may be smooth-haired, wire-haired, or long-haired. The standard-sized dachshund was developed to scent, chase, and flush out badgers and other burrow-dwelling animals. The miniature dachshund was bred to hunt small animals such as rabbits. According to the American Kennel Club, the dachshund was ranked 12th in popularity among dog breeds in the United States in 2018."
+    },
+    {
+        "id": 9,
+        "dog-name-en": "Tibetan Mastiff",
+        "dog-name-cn": "藏獒",
+        "description": "The Tibetan mastiff is a large size Tibetan dog breed. Its double coat is medium to long, subject to climate, and found in a wide variety of colors, including solid black, black and tan, various shades of red (from pale gold to deep red) and bluish-gray (dilute black), and sometimes with white markings around neck, chest and legs. This dog can run up to a speed of 20mph over short distances (32kph)."
+    },
+    {
+        "id": 10,
+        "dog-name-en": "German Shepherd",
+        "dog-name-cn": "德國牧羊犬",
+        "description": "The German Shepherd Dog, also known as the Alsatian, is a German breed of working dog of medium to large size. The breed was developed by Max von Stephanitz using various traditional German herding dogs from 1899. It was originally bred as a herding dog, for herding sheep. It has since been used in many other types of work, including disability assistance, search-and-rescue, police work and warfare. It is commonly kept as a companion dog, and according to the Fédération Cynologique Internationale had the second-highest number of annual registrations in 2013."
+    },
+    {
+        "id": 11,
+        "dog-name-en": "Golden Retriever",
+        "dog-name-cn": "金毛尋回犬",
+        "description": "The Golden Retriever is a British breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. It is commonly kept as a pet and is among the most frequently registered breeds in several Western countries. It is a frequent competitor in dog shows and obedience trials; it is also used as a gundog, and may be trained for use as a guide dog. The breed was created by Sir Dudley Marjoribanks at his Scottish estate Guisachan in the late nineteenth century. He cross-bred Flat-coated Retrievers with Tweed Water Spaniels, with some further infusions of Red Setter, Labrador Retriever and Bloodhound. The breed was recognised by the Kennel Club in 1913, and during the interwar period spread to many parts of the world."
+    },
+    {
+        "id": 12,
+        "dog-name-en": "Labrador Retriever",
+        "dog-name-cn": "拉布拉多尋回犬",
+        "description": "The Labrador Retriever or Labrador is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the colony of Newfoundland (now a province of Canada), and was named after the Labrador region of that colony. It is among the most commonly kept dogs in several countries, particularly in the Western world. The Labrador is loyal, obedient and playful. It was bred as a sporting and hunting dog, but is widely kept as a companion dog. It may also be trained as a guide or assistance dog, or for rescue or therapy work."
+    },
+    {
+        "id": 13,
+        "dog-name-en": "American Bulldog",
+        "dog-name-cn": "美國鬥牛犬",
+        "description": "The American Bulldog is a large breed of utility dog descended from the Old English Bulldog. They are now used on animal farms, dog sports, and for showing. They are part of American culture and history, and may be used as a cultural icon for the United States.[citation needed] They are generally represented as being strong and tough. In November 2019, the American Bulldog was added to the American Kennel Club (AKC) Foundation Stock Service (FSS)."
+    },
+    {
+        "id": 14,
+        "dog-name-en": "Pug",
+        "dog-name-cn": "八哥",
+        "description": "The pug is a breed of dog originally from China, with physically distinctive features of a wrinkly, short-muzzled face and curled tail. The breed has a fine, glossy coat that comes in a variety of colors, most often light brown (fawn) or black, and a compact, square body with well-developed muscles. Pugs were brought from China to Europe in the sixteenth century and were popularized in Western Europe by the House of Orange of the Netherlands, and the House of Stuart.In the United Kingdom, in the nineteenth century, Queen Victoria developed a passion for pugs which she passed on to other members of the Royal family. Pugs are known for being sociable and gentle companion dogs.The American Kennel Club describes the breed's personality as \"even-tempered and charming\".Pugs remain popular into the twenty-first century, with some famous celebrity owners."
+    },
+    {
+        "id": 15,
+        "dog-name-en": "Poodle",
+        "dog-name-cn": "貴婦犬",
+        "description": "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog. The breed is divided into four varieties based on size, the Standard Poodle, Medium Poodle, Miniature Poodle and Toy Poodle, although the Medium Poodle variety is not universally recognised. The Poodle most likely originated in Germany, although it is also claimed to be from France. The Standard Poodle was originally used by wildfowl hunters to retrieve game from water. The smaller varieties of the breed were bred from the original in France where they were once commonly used as circus performers, but have become popular companion dogs."
+    },
+    {
+        "id": 16,
+        "dog-name-en": "Schnauzer",
+        "dog-name-cn": "史納莎",
+        "description": "A Schnauzer is a dog breed type that originated in Germany from the 14th to 16th centuries.The term comes from the German word for \"snout\" and means colloquially \"moustache\",or \"whiskered snout\",because of the dog's distinctively bearded snout. Initially it was called Wire-Haired Pinscher, while Schnauzer was adopted in 1879."
+    },
+    {
+        "id": 17,
+        "dog-name-en": "Bichon Frise",
+        "dog-name-cn": "比熊犬",
+        "description": "A Bichon Frise is a small breed of dog of the bichon type. Appearance is similar to Maltese. They rarely shed their hair naturally, so the hair needs to be groomed. The color is generally white."
+    },
+    {
+        "id": 18,
+        "dog-name-en": "Dobermann",
+        "dog-name-cn": "杜賓犬",
+        "description": "The Dobermann, or Doberman Pinscher in the United States and Canada, is a medium-large breed of domestic dog that was originally developed around 1890 by Louis Dobermann, a tax collector from Germany.The Dobermann has a long muzzle. It stands on its pads and is not usually heavy-footed. Ideally, they have an even and graceful gait. Traditionally, the ears are cropped and posted and the tail is docked. However, in some countries, these procedures are now illegal and it is often considered cruel and unnecessary. Dobermans have markings on the chest, paws/legs, muzzle, above the eyes, and underneath the tail. Dobermanns are known to be intelligent, alert, and tenaciously loyal companions and guard dogs.Personality varies a great deal between each individual but, if taken care of and properly trained, they are generally considered to be loving and devoted companions. The Dobermann is driven, strong, and sometimes stubborn. With a consistent approach, they can be easy to train and will learn very quickly."
+    },
+    {
+        "id": 19,
+        "dog-name-en": "Pomeranian",
+        "dog-name-cn": "松鼠狗",
+        "description": "The Pomeranian (often known as a Pom) is a breed of dog of the Spitz type that is named for the Pomerania region in north-west Poland and north-east Germany in Central Europe. Classed as a toy dog breed because of its small size, the Pomeranian is descended from larger Spitz-type dogs, specifically the German Spitz. It has been determined by the Fédération Cynologique Internationale to be part of the German Spitz breed; and in many countries, they are known as the Zwergspitz (\"Dwarf Spitz\")."
+    },
+    {
+        "id": 20,
+        "dog-name-en": "Great Dane",
+        "dog-name-cn": "大丹犬",
+        "description": "The Great Dane or German Mastiff is a historic breed of large sighthound-mastiff dog from Germany. The Great Dane descends from German hunting dogs from the Middle Ages, and is one of the largest breeds in the world."
+    }
+]
