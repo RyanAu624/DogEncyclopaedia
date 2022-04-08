@@ -29,6 +29,7 @@ struct ContentView: View {
         let result = results[0].key
         for dog in datas.dogs where dog.dog_name_en.lowercased() == result.lowercased(){
             print(dog.id)
+            print(dog.dog_name_en)
             //                DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
         }
     }
