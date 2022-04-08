@@ -7,9 +7,9 @@
     },
     {
         "id": 2,
-        "dog-name-en": "Shiba Inu",
-        "dog-name-cn": "柴犬",
-        "description": "The Shiba Inu is a breed of hunting dog from Japan. A small-to-medium breed, it is the smallest of the six original and distinct spitz breeds of dog native to Japan.A small, alert, and agile dog that copes very well with mountainous terrain and hiking trails, the Shiba Inu was originally bred for hunting.It looks similar to and is often mistaken for other Japanese dog breeds such as the Akita Inu or Hokkaido, but the Shiba Inu is a different breed with a distinct blood line, temperament, and smaller size than other Japanese dog breeds."
+        "dog-name-en": "Pointer",
+        "dog-name-cn": "指標犬",
+        "description": "developed in England. Pointers are used to find game for hunters, and are considered by gundog enthusiasts to be one of the finest breeds of its type; however, unlike most other pointing breeds, its purpose is to point, not retrieve game. The popular belief is that the Pointer descends from the Old Spanish Pointer that was brought to England from Spain with returning soldiers at the beginning of the 18th century. Once in England, they were crossed with local dog breeds to improve the breed's hunting abilities."
     },
     {
         "id": 3,
@@ -19,21 +19,21 @@
     },
     {
         "id": 4,
-        "dog-name-en": "Tang Dog",
-        "dog-name-cn": "唐狗",
-        "description": "The Tang Dog is an ancient medium-sized dog breed indigenous to southern China. Tang dogs are prized as a companion and watch dog but are also occasionally used for hunting and as meat dogs in China."
+        "dog-name-en": "Portuguese Water Dog",
+        "dog-name-cn": "葡萄牙水狗",
+        "description": "The Portuguese Water Dog originated from the Algarve region of Portugal. From there the breed expanded to all around Portugal's coast, where they were taught to herd fish into fishermen's nets, retrieve lost tackle or broken nets, and act as couriers from ship to ship, or ship to shore. Portuguese Water Dogs rode in fishing trawlers as they worked their way from the Atlantic waters of Portugal to the waters off the coast of Iceland fishing for cod. The Portuguese Water Dog is a fairly rare breed; only 36 Portuguese Water Dogs were entered for Britain's Crufts competition in 2013. Though some breeders claim they are a hypoallergenic dog breed, there is no scientific evidence to support the claim that hypoallergenic dog breeds exist. Their non-shedding qualities have made them more popular in recent years. The Portuguese Water Dog has recently gained more fame by being the chosen breed of US President Barack Obama, who had two of them, Bo and Sunny. The Obama family chose Sunny for the breed's comparatively hypoallergenic nature, while Bo was given to them by Senator Ted Kennedy."
     },
     {
         "id": 5,
-        "dog-name-en": "Husky",
-        "dog-name-cn": "哈士奇",
-        "description": "Husky is a general term for a dog used in the polar regions, primarily and specifically for work as sled dogs. It refers to a traditional northern type, notable for its cold-weather tolerance and overall hardiness. Though dogs such as the AKC/CKC-registered Alaskan Malamute may not contain 'Husky' in their official name, the term still encompasses dogs of their type.[citation needed] Modern racing huskies that maintain arctic breed traits (also known as Alaskan huskies) represent an ever-changing crossbreed of the fastest dogs. Huskies have continued to be used in sled-dog racing, as well as expedition and trek style tour businesses, and as a means of essential transportation in rural communities. Huskies are also kept as pets, and groups work to find new pet homes for retired racing and adventure-trekking dogs."
+        "dog-name-en": "Saint Bernard",
+        "dog-name-cn": "聖伯納犬",
+        "description": "The St. Bernard is recognized internationally today as one of the molosser breeds.It is a giant dog. The coat can be either smooth or rough; the smooth coat being close and flat, while the rough is dense, flat, and more profuse around the neck and legs. The colour is typically a red shade with white, or a mahogany brindle with white. Black shading is usually found on the face and ears. The tail is long and heavy, hanging high. The eyes are usually brown, but sometimes can be icy blue, and should have naturally tight lids, with haws only slightly visible."
     },
     {
         "id": 6,
-        "dog-name-en": "Welsh Corgi",
-        "dog-name-cn": "哥基",
-        "description": "The Welsh Corg is a small type of herding dog that originated in Wales. The name \"corgi\" is derived from the Welsh words \"cor\" and \"ci\" (which is mutated to ‘gi’), meaning \"dwarf\" and \"dog\", respectively. Two separate breeds are recognized: the Pembroke Welsh Corgi and the Cardigan Welsh Corgi. There are physical differences between the two different breeds. According to the breed standards, overall the Cardigan is larger, both in weight and height. Their tails are of different shapes, and docking had previously been performed. Historically, the Pembroke has been attributed to the influx of dogs alongside Flemish weavers from around the 10th century, while the Cardigan is attributed to the dogs brought with Norse settlers, in particular a common ancestor of the Swedish Vallhund. The Pembroke is the more popular of the two, yet still appears on The Kennel Club's vulnerable dog breeds of the United Kingdom list. The Pembroke Welsh Corgi gained in popularity because the Queen has personally owned more than 30 Pembrokes or Corgi-Dachshund crosses, known as dorgis."
+        "dog-name-en": "Silky Terrier",
+        "dog-name-cn": "澳洲絲毛㹴",
+        "description": "The Australian Silky Terrier or simply Silky Terrier (depending on the breed registry) is a small breed of dog of the terrier dog type. The breed was developed in Australia, although the ancestral types and breeds were from Great Britain. It is closely related to the Australian Terrier and the Yorkshire Terrier. The breed is called the Silky Terrier in North America, but is called the Australian Silky Terrier in its country of origin and in the rest of the world."
     },
     {
         "id": 7,
@@ -73,15 +73,15 @@
     },
     {
         "id": 13,
-        "dog-name-en": "American Bulldog",
-        "dog-name-cn": "美國鬥牛犬",
-        "description": "The American Bulldog is a large breed of utility dog descended from the Old English Bulldog. They are now used on animal farms, dog sports, and for showing. They are part of American culture and history, and may be used as a cultural icon for the United States.[citation needed] They are generally represented as being strong and tough. In November 2019, the American Bulldog was added to the American Kennel Club (AKC) Foundation Stock Service (FSS)."
+        "dog-name-en": "Smooth Fox Terrier",
+        "dog-name-cn": "短毛獵狐㹴",
+        "description": "The Smooth Fox Terrier is a breed of dog, one of many terrier breeds. It was the first breed in the fox terrier family to be given official recognition by The Kennel Club (circa 1875; breed standard 1876). It is well known, and although not a widely popular breed today outside hunting and show circles, it is extremely significant due to the large number of terriers believed descended from the breed."
     },
     {
         "id": 14,
-        "dog-name-en": "Pug",
-        "dog-name-cn": "八哥",
-        "description": "The pug is a breed of dog originally from China, with physically distinctive features of a wrinkly, short-muzzled face and curled tail. The breed has a fine, glossy coat that comes in a variety of colors, most often light brown (fawn) or black, and a compact, square body with well-developed muscles. Pugs were brought from China to Europe in the sixteenth century and were popularized in Western Europe by the House of Orange of the Netherlands, and the House of Stuart.In the United Kingdom, in the nineteenth century, Queen Victoria developed a passion for pugs which she passed on to other members of the Royal family. Pugs are known for being sociable and gentle companion dogs.The American Kennel Club describes the breed's personality as \"even-tempered and charming\".Pugs remain popular into the twenty-first century, with some famous celebrity owners."
+        "dog-name-en": "Welsh Springer Spaniel",
+        "dog-name-cn": "威爾斯激飛獵犬",
+        "description": "The Welsh Springer Spaniel (Cymraeg: Llamgi Cymru) is a breed of dog and a member of the spaniel family. Thought to be comparable to the old Land Spaniel, they are similar to the English Springer Spaniel and historically have been referred to as both the Welsh Spaniel and the Welsh Cocker Spaniel. They were relatively unknown until a succession of victories in dog trials by the breed increased its popularity. Following recognition by The Kennel Club in 1902, the breed gained the modern name of Welsh Springer Spaniel. The breed's coat only comes in a single colour combination of white with red markings, usually in a piebald pattern. Loyal and affectionate, they can become very attached to family members and are wary of strangers. Health conditions are limited to those common among many breeds of dog, although they are affected more than average by hip dysplasia and some eye conditions. They are a working dog, bred for hunting, and while not as rare as some varieties of spaniel, they are rarer than the more widely known English Springer Spaniel with which they are sometimes confused."
     },
     {
         "id": 15,

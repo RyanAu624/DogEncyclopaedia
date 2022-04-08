@@ -10,7 +10,7 @@
 		854322F427FFFA0E00CF5392 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854322F327FFFA0E00CF5392 /* UIImage+Extension.swift */; };
 		854322F627FFFA6900CF5392 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854322F527FFFA6900CF5392 /* ImagePicker.swift */; };
 		854322F927FFFA8000CF5392 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854322F827FFFA8000CF5392 /* ReadData.swift */; };
-		854322FB27FFFA9500CF5392 /* DogEncyclopaediaClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 854322FA27FFFA9500CF5392 /* DogEncyclopaediaClassifierModel.mlmodel */; };
+		8548952F280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8548952E280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel */; };
 		9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */; };
 		9A29154327F84888000C7B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29154227F84888000C7B2D /* ContentView.swift */; };
 		9A29154527F8488A000C7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A29154427F8488A000C7B2D /* Assets.xcassets */; };
@@ -25,7 +25,7 @@
 		854322F327FFFA0E00CF5392 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		854322F527FFFA6900CF5392 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		854322F827FFFA8000CF5392 /* ReadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
-		854322FA27FFFA9500CF5392 /* DogEncyclopaediaClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogEncyclopaediaClassifierModel.mlmodel; sourceTree = "<group>"; };
+		8548952E280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogEncyclopaediaClassifierModel.mlmodel; sourceTree = "<group>"; };
 		9A29153D27F84888000C7B2D /* DogEncyclopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogEncyclopaedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A29154027F84888000C7B2D /* DogEncyclopaediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopaediaApp.swift; sourceTree = "<group>"; };
 		9A29154227F84888000C7B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 				854322F727FFFA8000CF5392 /* ModelView */,
 				9A5A55CA27FDCCA200D6E883 /* Model */,
 				854322F527FFFA6900CF5392 /* ImagePicker.swift */,
-				854322FA27FFFA9500CF5392 /* DogEncyclopaediaClassifierModel.mlmodel */,
+				8548952E280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel */,
 				9A29154427F8488A000C7B2D /* Assets.xcassets */,
 				9A29154627F8488A000C7B2D /* Preview Content */,
 			);
@@ -189,7 +189,7 @@
 				854322F427FFFA0E00CF5392 /* UIImage+Extension.swift in Sources */,
 				9AE1C96427FAD46C00EABF23 /* SearchBarView.swift in Sources */,
 				9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */,
-				854322FB27FFFA9500CF5392 /* DogEncyclopaediaClassifierModel.mlmodel in Sources */,
+				8548952F280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel in Sources */,
 				9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */,
 				854322F627FFFA6900CF5392 /* ImagePicker.swift in Sources */,
 				854322F927FFFA8000CF5392 /* ReadData.swift in Sources */,
