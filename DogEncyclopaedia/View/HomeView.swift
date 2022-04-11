@@ -28,7 +28,12 @@ struct HomeView: View {
             ZStack {
                 VStack {
                     NavigationLink(isActive: $showDogDetailView) {
-                        DogDetailView(dogImage: "Test", dogVariety: "Test", dogVarietyDetail: "Test")
+                        ForEach (datas.dogs) { dog in
+                            if searchText == dog.dog_name_en {
+                                DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                            }
+                        }
+
                     } label: {
                         EmptyView()
                     }
