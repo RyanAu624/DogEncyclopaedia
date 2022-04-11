@@ -24,16 +24,16 @@ struct HomeView: View {
     let model = DogEncyclopaediaClassifierModel()
         
     var body: some View {
-        ZStack {
-            VStack {
-//                NavigationLink(isActive: $showDogDetailView) {
-//                    DogDetailView(dogImage: "Test", dogVariety: "Test", dogVarietyDetail: "Test")
-//                } label: {
-//                    EmptyView()
-//                }
-            }
-            VStack {
-                NavigationView{
+        NavigationView{
+            ZStack {
+                VStack {
+                    NavigationLink(isActive: $showDogDetailView) {
+                        DogDetailView(dogImage: "Test", dogVariety: "Test", dogVarietyDetail: "Test")
+                    } label: {
+                        EmptyView()
+                    }
+                }
+                VStack {
                     List {
                         Image("HomeIcon")
                             .resizable()
@@ -47,7 +47,7 @@ struct HomeView: View {
                             .padding(.bottom, 20)
                             .listRowSeparator(.hidden)
                             .onSubmit {
-
+                                showDogDetailView = true
                             }
                         Text("Variety List")
                             .fontWeight(.bold)
@@ -65,24 +65,24 @@ struct HomeView: View {
                         .listRowSeparator(.hidden)
                     }
                     .listStyle(PlainListStyle())
-                    .toolbar {
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            Button(action: {
-                                openCameraRoll = true
-                                
-                            }) {
-                                Image(systemName: "camera")
-                            }
-                        }
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        openCameraRoll = true
+                        
+                    }) {
+                        Image(systemName: "camera")
                     }
                 }
-                .sheet(isPresented: $openCameraRoll){
-                    ImagePicker(selectedImage: $imageSelected, sourceType: .photoLibrary)
-                        .onDisappear{
-                            if $imageSelected != nil {
-                                classifyImage(image: imageSelected)
-                            }
-                        }
+            }
+        }
+        .sheet(isPresented: $openCameraRoll) {
+            ImagePicker(selectedImage: $imageSelected, sourceType: .photoLibrary)
+            .onDisappear{
+                if $imageSelected != nil {
+                    classifyImage(image: imageSelected)
                 }
             }
         }
