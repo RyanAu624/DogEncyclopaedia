@@ -19,6 +19,7 @@ struct HomeView: View {
     @State var imageSelected = UIImage()
     
     @State private var searchText = ""
+    @State var isEditing = false
 
     @State var showView = false
     @State var res: Int
@@ -47,31 +48,58 @@ struct HomeView: View {
                             .frame(width: 300, height: 80, alignment: .topLeading)
                             .padding(.top, -40)
                             .padding(.bottom, 20)
-                        TextField("Search Here", text: $searchText)
-                            .padding()
-                            .frame(height: 50)
-                            .background(.white)
-                            .cornerRadius(7)
-                            .shadow(color: .gray, radius: 4, x: 0, y: 0)
-                            .padding(.bottom, 20)
-                            .listRowSeparator(.hidden)
-                            .onSubmit {
-                                
-                            }
-                        Text("Variety List")
-                            .fontWeight(.bold)
-                            .font(.title)
-                        ForEach (datas.dogs) { dog in
-                            ZStack(alignment: .leading) {
-                                NavigationLink(destination: {
-                                    DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
-                                }, label: {
-                                    EmptyView()
-                                }).opacity(0)
-                                CardView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)")
+                        HStack {
+                            TextField("Search Here", text: $searchText)
+                                .padding()
+                                .frame(height: 50)
+                                .background(.white)
+                                .cornerRadius(7)
+                                .shadow(color: .gray, radius: 4, x: 0, y: 0)
+                                .padding(.bottom, 20)
+                                .listRowSeparator(.hidden)
+                                .onSubmit {
+                                    isEditing = true
+                                }
+                            if isEditing {
+                                Button(action: {
+                                    self.isEditing = false
+                                    self.searchText = ""
+                                }) {
+                                    Text("Cancel")
+                                }
+                                .padding(.leading, 6)
+                                .padding(.bottom, 20)
                             }
                         }
                         .listRowSeparator(.hidden)
+                        Text("Variety List")
+                            .fontWeight(.bold)
+                            .font(.title)
+                        if isEditing == false {
+                            ForEach (datas.dogs) { dog in
+                                ZStack(alignment: .leading) {
+                                    NavigationLink(destination: {
+                                        DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                                    }, label: {
+                                        EmptyView()
+                                    }).opacity(0)
+                                    CardView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)")
+                                }
+                            }
+                            .listRowSeparator(.hidden)
+                        } else {
+                            ForEach (datas.dogs.filter { $0.dog_name_en.contains(searchText)}) { dog in
+                                ZStack(alignment: .leading) {
+                                    NavigationLink(destination: {
+                                        DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                                    }, label: {
+                                        EmptyView()
+                                    }).opacity(0)
+                                    CardView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)")
+                                }
+                            }
+                            .listRowSeparator(.hidden)
+                        }
                     }
                     .listStyle(PlainListStyle())
                 }
