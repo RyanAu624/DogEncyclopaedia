@@ -20,6 +20,8 @@ struct HomeView: View {
     
     @State private var searchText = ""
     @State var showDogDetailView = false
+    @State var showView = false
+    @State var res: Int
     
     let model = DogEncyclopaediaClassifierModel()
         
@@ -29,11 +31,21 @@ struct HomeView: View {
                 VStack {
                     NavigationLink(isActive: $showDogDetailView) {
                         ForEach (datas.dogs) { dog in
-                            if searchText == dog.dog_name_en {
+                            if searchText.lowercased() == dog.dog_name_en.lowercased() {
                                 DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
                             }
                         }
-
+                    } label: {
+                        EmptyView()
+                    }
+                }
+                VStack {
+                    NavigationLink(isActive: $showView) {
+                        ForEach (datas.dogs) { dog in
+                            if res == dog.id {
+                                DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                            }
+                        }
                     } label: {
                         EmptyView()
                     }
@@ -103,14 +115,16 @@ struct HomeView: View {
         for dog in datas.dogs where dog.dog_name_en.lowercased() == result.lowercased(){
             print(dog.id)
             print(dog.dog_name_en)
+            res = dog.id
         }
+        showView = true
     }
     
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(res: 0)
     }
 }
 
