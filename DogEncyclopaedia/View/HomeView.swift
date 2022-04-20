@@ -20,6 +20,7 @@ struct HomeView: View {
     
     @State private var searchText = ""
     @State var isEditing = false
+    @FocusState private var isFocused: Bool
 
     @State var showView = false
     @State var res: Int
@@ -57,6 +58,7 @@ struct HomeView: View {
                                 .shadow(color: .gray, radius: 4, x: 0, y: 0)
                                 .padding(.bottom, 20)
                                 .listRowSeparator(.hidden)
+                                .focused($isFocused)
                                 .onSubmit {
                                     isEditing = true
                                 }
@@ -64,6 +66,7 @@ struct HomeView: View {
                                 Button(action: {
                                     self.isEditing = false
                                     self.searchText = ""
+                                    self.isFocused = false
                                 }) {
                                     Text("Cancel")
                                 }
