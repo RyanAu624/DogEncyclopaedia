@@ -21,8 +21,15 @@ class ReadData: ObservableObject  {
                 let id = object!["id"] as! Int
                 let dog_name_en = object!["dog-name-en"] as! String
                 let dog_name_cn = object!["dog-name-cn"] as! String
+                let dogPlayFulness = object!["dogPlayFulness"] as! Int
+                let dogEnergy = object!["dogEnergy"] as! Int
                 let description = object!["description"] as! String
-                dogs.append(Dog(id: id,dog_name_en:dog_name_en,dog_name_cn:dog_name_cn,description:description))
+                dogs.append(Dog(id: id,
+                                dog_name_en:dog_name_en,
+                                dog_name_cn:dog_name_cn,
+                                dogPlayFulness:dogPlayFulness,
+                                dogEnergy:dogEnergy,
+                                description:description))
             }
         }
     }

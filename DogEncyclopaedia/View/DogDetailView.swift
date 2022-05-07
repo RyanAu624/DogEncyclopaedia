@@ -12,27 +12,49 @@ struct DogDetailView: View {
     var dogImage : String
     var dogVariety : String
     var dogVarietyDetail : String
+    var dogPlayFulness : Int
+    var dogEnergy : Int
     
     var body: some View {
         VStack (alignment: .leading) {
-                Image(dogImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(15)
-                Text(dogVariety)
-                    .font(.title)
+            Image(dogImage)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(15)
+            Text(dogVariety)
+                .font(.title)
+                .foregroundColor(.primary)
+                .fontWeight(.medium)
+                .padding(.bottom, 5)
+            HStack {
+                Text("Playfulness: ")
+                    .font(.title3)
                     .foregroundColor(.primary)
-                    .fontWeight(.medium)
-                    .padding(.bottom, 20)
-                Text(dogVarietyDetail)
-                Spacer()
+                    .padding(.top, 5)
+                    .padding(.bottom, 5)
+                ForEach(0 ..< dogPlayFulness) { item in
+                    Image(systemName: "pawprint")
+                }
             }
-            .padding()
+            HStack {
+                Text("Energy: ")
+                    .font(.title3)
+                    .foregroundColor(.primary)
+                    .padding(.bottom, 5)
+                    .padding(.top, 5)
+                ForEach(0 ..< dogEnergy) { item in
+                    Image(systemName: "pawprint")
+                }
+            }
+            Text(dogVarietyDetail)
+            Spacer()
+        }
+        .padding()
     }
 }
 
 struct DogDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DogDetailView(dogImage: "blankImage", dogVariety: "Testing Data", dogVarietyDetail: "Testing Data")
+        DogDetailView(dogImage: "blankImage", dogVariety: "Testing Data", dogVarietyDetail: "Testing Data", dogPlayFulness: 3, dogEnergy: 5)
     }
 }

@@ -3,120 +3,160 @@
         "id": 1,
         "dog-name-en": "Pekingese",
         "dog-name-cn": "北京犬",
-        "description": "The Pekingese (also spelled Pekinese) is a breed of toy dog, originating in China. The breed was favored by royalty of the Chinese Imperial court as both a lap dog and companion dog, and its name refers to the city of Peking (Beijing) where the Forbidden City is located. The breed has several characteristics and health issues related to its unique appearance. Because of its desirable characteristics, the Pekingese has been part of the development of designer crossbreeds, such as the Peekapoo (crossed with a poodle) and Peke-a-tese (crossed with a Maltese)."
+        "dogPlayFulness": 4,
+        "dogEnergy": 3,
+        "description": "The Pekingese, a compact toy companion of regal bearing and a distinctive rolling gait, is one of several breeds created for the ruling classes of ancient China. These are sophisticated dogs of undying loyalty and many subtle delights. Pekingese are compact, stocky toy dogs weighing up to 14 pounds. The coat is longest at the neck and shoulders, giving Pekes their famous 'lion's mane.' Coats come in various reds, from a golden-red to darker shades. The large, short-muzzled head is a wider-than-long 'envelope shaped' rectangle, and the eyes are large, dark, and sparkly. A unique feature of Pekes is their effortless 'rolling' gait. Pekes are charming, confident companions who develop a tight bond with their favorite human. Bred to live in palaces, they can be as serenely independent as the emperors who owned them. (They're 'opinionated,' Peke people say.) Ever alert, they make good watchdogs. Pekes will tolerate kids but won't stand for a lot of roughhousing."
     },
     {
         "id": 2,
         "dog-name-en": "Pointer",
         "dog-name-cn": "指標犬",
-        "description": "developed in England. Pointers are used to find game for hunters, and are considered by gundog enthusiasts to be one of the finest breeds of its type; however, unlike most other pointing breeds, its purpose is to point, not retrieve game. The popular belief is that the Pointer descends from the Old Spanish Pointer that was brought to England from Spain with returning soldiers at the beginning of the 18th century. Once in England, they were crossed with local dog breeds to improve the breed's hunting abilities."
+        "dogPlayFulness": 4,
+        "dogEnergy": 4,
+        "description": "A good way to describe the German Longhaired Pointer is that, in appearance, it's Continental Europe's version of a Setter: a pointing dog with full tail and a long coat with dense guard hairs and a moderate undercoat. One noteworthy difference is the GLP's affection for swimming and, therefore, waterfowl hunting. Coat color reflects the mixture of markings similar to a German Shorthaired Pointer. German Longhaired Pointers are a gun dog and as such, they are expected to search, point, track and retrieve game. They can excel in all types of hunting situations: waterfowl hunting, searching for upland game birds, or retrieving furred game in the woods or prairies, typically rabbit and squirrel in North America. They have a unique ability in being able to switch from a calm household pet to a fiery, passionate hunter. Having been bred for hunting for over a century, they are a superior, tried and tested hunting companion. "
     },
     {
         "id": 3,
         "dog-name-en": "Akita",
         "dog-name-cn": "秋田犬",
+        "dogPlayFulness": 3,
+        "dogEnergy": 4,
         "description": "The Akita is a large breed of dog originating from the mountainous regions of northern Japan. The two separate varieties of Akita are a Japanese strain, commonly called Akita Inu (inu means dog in Japanese) or Japanese Akita, and an American strain, known as the Akita or American Akita. The Japanese strain occurs in a narrow palette of colors, with all other colors considered atypical of the breed, while the American strain comes in all dog colors. The Akita has a short double coat similar to that of many other northern spitz breeds such as the Siberian Husky, but long-coated dogs can also be found in many litters due to a recessive gene.The Akita is a powerful, independent, and dominant breed, commonly aloof with strangers, but affectionate with family members. As a breed, Akitas are generally hardy."
     },
     {
         "id": 4,
         "dog-name-en": "Portuguese Water Dog",
         "dog-name-cn": "葡萄牙水狗",
-        "description": "The Portuguese Water Dog originated from the Algarve region of Portugal. From there the breed expanded to all around Portugal's coast, where they were taught to herd fish into fishermen's nets, retrieve lost tackle or broken nets, and act as couriers from ship to ship, or ship to shore. Portuguese Water Dogs rode in fishing trawlers as they worked their way from the Atlantic waters of Portugal to the waters off the coast of Iceland fishing for cod. The Portuguese Water Dog is a fairly rare breed; only 36 Portuguese Water Dogs were entered for Britain's Crufts competition in 2013. Though some breeders claim they are a hypoallergenic dog breed, there is no scientific evidence to support the claim that hypoallergenic dog breeds exist. Their non-shedding qualities have made them more popular in recent years. The Portuguese Water Dog has recently gained more fame by being the chosen breed of US President Barack Obama, who had two of them, Bo and Sunny. The Obama family chose Sunny for the breed's comparatively hypoallergenic nature, while Bo was given to them by Senator Ted Kennedy."
+        "dogPlayFulness": 5,
+        "dogEnergy": 5,
+        "description": "The bright and biddable Portuguese Water Dog was bred to be an all-around fisherman's helper. The robust, medium-sized body is covered by a coat of tight, low-shedding curls. PWDs are eager and athletic companions built for water work. The Portuguese Water Dog is super-smart and very 'biddable', meaning he's easy to train and eager to please. The Portie can be groomed in two styles: The retriever clip (the entire coat is clipped to one inch in length, with the tail tip at full length) or the more check-me-out lion clip, where the coat is on the hindquarters and muzzle is clipped down to the skin."
     },
     {
         "id": 5,
         "dog-name-en": "Saint Bernard",
         "dog-name-cn": "聖伯納犬",
-        "description": "The St. Bernard is recognized internationally today as one of the molosser breeds.It is a giant dog. The coat can be either smooth or rough; the smooth coat being close and flat, while the rough is dense, flat, and more profuse around the neck and legs. The colour is typically a red shade with white, or a mahogany brindle with white. Black shading is usually found on the face and ears. The tail is long and heavy, hanging high. The eyes are usually brown, but sometimes can be icy blue, and should have naturally tight lids, with haws only slightly visible."
+        "dogPlayFulness": 3,
+        "dogEnergy": 3,
+        "description": "The Saint Bernard does not rank very high in AKC registrations, but the genial giant of the Swiss Alps is nonetheless among the world's most famous and beloved breeds. Saints are famously watchful and patient 'nanny dogs' for children. Not ranked particularly high in AKC registrations, this genial giant is nonetheless among the world's most famous and beloved breeds. The Saint's written standard abounds with phrases like 'very powerful,' 'extraordinarily muscular,' 'imposing,' and 'massive.' A male stands a minimum 27.5 inches at the shoulder; females will be smaller and more delicately built. The huge head features a wrinkled brow, a short muzzle, and dark eyes, combining to give Saints the intelligent, friendly expression that was such a welcome sight to stranded Alpine travelers."
     },
     {
         "id": 6,
         "dog-name-en": "Silky Terrier",
         "dog-name-cn": "澳洲絲毛㹴",
-        "description": "The Australian Silky Terrier or simply Silky Terrier (depending on the breed registry) is a small breed of dog of the terrier dog type. The breed was developed in Australia, although the ancestral types and breeds were from Great Britain. It is closely related to the Australian Terrier and the Yorkshire Terrier. The breed is called the Silky Terrier in North America, but is called the Australian Silky Terrier in its country of origin and in the rest of the world."
+        "dogPlayFulness": 3,
+        "dogEnergy": 3,
+        "description": "His size, strength, and unflagging spirit have earned the Airedale Terrier the nickname 'The King of Terriers.' The Airedale stands among the world's most versatile dog breeds and has distinguished himself as hunter, athlete, and companion. The Airedale Terrier is the largest of all terrier breeds. Males stand about 23 inches at the shoulder, females a little less. The dense, wiry coat is tan with black markings. Long, muscular legs give Airedales a regal lift in their bearing, and the long head'¿with its sporty beard and mustache, dark eyes, and neatly folded ears'¿conveys a keen intelligence. Airedales are the very picture of an alert and willing terrier'¿only bigger. And, like his smaller cousins in the terrier family, he can be bold, determined, and stubborn. Airedales are docile and patient with kids but won't back down when protecting hearth and home. Thanks to their famous do-it-all attitude, Airedales excel in all kinds of sports and family activities."
     },
     {
         "id": 7,
         "dog-name-en": "Chihuahua",
         "dog-name-cn": "芝娃娃",
-        "description": "The Chihuahua is one of the smallest breeds of dog, and is named after the Mexican state of Chihuahua. Chihuahuas remained a rarity until the early 20th century, and the American Kennel Club did not register a Chihuahua until 1904. In a 1520 letter, Hernan Cortés wrote that the Aztecs raised and sold the little dogs as food. Colonial records refer to small, nearly hairless dogs at the beginning of the 19th century, one of which claims 16th-century conquistadores found them plentiful in the region later known as Chihuahua."
+        "dogPlayFulness": 4,
+        "dogEnergy": 4,
+        "description": "The Chihuahua is a tiny dog with a huge personality. A national symbol of Mexico, these alert and amusing 'purse dogs' stand among the oldest breeds of the Americas, with a lineage going back to the ancient kingdoms of pre-Columbian times. The Chihuahua is a balanced, graceful dog of terrier-like demeanor, weighing no more than 6 pounds. The rounded 'apple' head is a breed hallmark. The erect ears and full, luminous eyes are acutely expressive. Coats come in many colors and patterns, and can be long or short. The varieties are identical except for coat. Chihuahuas possess loyalty, charm, and big-dog attitude. Even tiny dogs require training, and without it this clever scamp will rule your household like a little Napoleon. Compact and confident, Chihuahuas are ideal city pets. They are too small for roughhousing with kids, and special care must be taken in cold weather, but Chihuahuas are adaptable'¿as long as they get lots of quality time in their preferred lap."
     },
     {
         "id": 8,
         "dog-name-en": "Dachshund",
         "dog-name-cn": "臘腸犬",
-        "description": "The dachshund, also known as the wiener dog, badger dog, and sausage dog, is a short-legged, long-bodied, hound-type dog breed. They may be smooth-haired, wire-haired, or long-haired. The standard-sized dachshund was developed to scent, chase, and flush out badgers and other burrow-dwelling animals. The miniature dachshund was bred to hunt small animals such as rabbits. According to the American Kennel Club, the dachshund was ranked 12th in popularity among dog breeds in the United States in 2018."
+        "dogPlayFulness": 4,
+        "dogEnergy": 3,
+        "description": "The famously long, low silhouette, ever-alert expression, and bold, vivacious personality of the Dachshund have made him a superstar of the canine kingdom. Dachshunds come in two sizes and in three coat types of various colors and patterns. The word 'icon' is terribly overworked, but the Dachshund'¿with his unmistakable long-backed body, little legs, and big personality'¿is truly an icon of purebred dogdom. Dachshunds can be standard-sized (usually 16 to 32 pounds) or miniature (11 pounds or under), and come in one of three coat types: smooth, wirehaired, or longhaired. Dachshunds aren't built for distance running, leaping, or strenuous swimming, but otherwise these tireless hounds are game for anything. Smart and vigilant, with a big-dog bark, they make fine watchdogs. Bred to be an independent hunter of dangerous prey, they can be brave to the point of rashness, and a bit stubborn, but their endearing nature and unique look has won millions of hearts the world over."
     },
     {
         "id": 9,
         "dog-name-en": "Tibetan Mastiff",
         "dog-name-cn": "藏獒",
-        "description": "The Tibetan mastiff is a large size Tibetan dog breed. Its double coat is medium to long, subject to climate, and found in a wide variety of colors, including solid black, black and tan, various shades of red (from pale gold to deep red) and bluish-gray (dilute black), and sometimes with white markings around neck, chest and legs. This dog can run up to a speed of 20mph over short distances (32kph)."
+        "dogPlayFulness": 3,
+        "dogEnergy": 3,
+        "description": "The colossal Mastiff belongs to a canine clan as ancient as civilization itself. A massive, heavy-boned dog of courage and prodigious strength, the Mastiff is docile and dignified but also a formidable protector of those they hold dear. For the uninitiated, a face-to-face encounter with these black-masked giants can be startling. A male stands at least 30 inches at the shoulder and can outweigh many a full-grown man. The rectangular body is deep and thickly muscled, covered by a short double coat of fawn, apricot, or brindle stripes. The head is broad and massive, and a wrinkled forehead accentuates an alert, kindly expression. Mastiffs are patient, lovable companions and guardians who take best to gentle training. Eternally loyal Mastiffs are protective of family, and a natural wariness of strangers makes early training and socialization essential. Mastiffs are magnificent pets, but acquiring a powerful giant-breed dog is commitment not to be taken lightly."
     },
     {
         "id": 10,
         "dog-name-en": "German Shepherd",
         "dog-name-cn": "德國牧羊犬",
-        "description": "The German Shepherd Dog, also known as the Alsatian, is a German breed of working dog of medium to large size. The breed was developed by Max von Stephanitz using various traditional German herding dogs from 1899. It was originally bred as a herding dog, for herding sheep. It has since been used in many other types of work, including disability assistance, search-and-rescue, police work and warfare. It is commonly kept as a companion dog, and according to the Fédération Cynologique Internationale had the second-highest number of annual registrations in 2013."
+        "dogPlayFulness": 4,
+        "dogEnergy": 5,
+        "description": "The Australian Shepherd, a lean, tough ranch dog, is one of those 'only in America' stories: a European breed perfected in California by way of Australia. Fixtures on the rodeo circuit, they are closely associated with the cowboy life. The Australian Shepherd, the cowboy's herding dog of choice, is a medium-sized worker with a keen, penetrating gaze in the eye. Aussie coats offer different looks, including merle (a mottled pattern with contrasting shades of blue or red). In all ways, they're the picture of rugged and agile movers of stock. Aussies exhibit an irresistible impulse to herd, anything: birds, dogs, kids. This strong work drive can make Aussies too much dog for a sedentary pet owner. Aussies are remarkably intelligent, quite capable of hoodwinking an unsuspecting novice owner. In short, this isn't the pet for everyone. But if you're looking for a brainy, tireless, and trainable partner for work or sport, your search might end here."
     },
     {
         "id": 11,
         "dog-name-en": "Golden Retriever",
         "dog-name-cn": "金毛尋回犬",
-        "description": "The Golden Retriever is a British breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. It is commonly kept as a pet and is among the most frequently registered breeds in several Western countries. It is a frequent competitor in dog shows and obedience trials; it is also used as a gundog, and may be trained for use as a guide dog. The breed was created by Sir Dudley Marjoribanks at his Scottish estate Guisachan in the late nineteenth century. He cross-bred Flat-coated Retrievers with Tweed Water Spaniels, with some further infusions of Red Setter, Labrador Retriever and Bloodhound. The breed was recognised by the Kennel Club in 1913, and during the interwar period spread to many parts of the world."
+        "dogPlayFulness": 4,
+        "dogEnergy": 3,
+        "description": "The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America's most popular dog breeds. They are serious workers at hunting and field work, as guides for the blind, and in search-and-rescue, enjoy obedience and other competitive events, and have an endearing love of life when not at work. The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a 'merry action.' The most complete records of the development of the Golden Retriever are included in the record books that were kept from 1835 until about 1890 by the gamekeepers at the Guisachan (pronounced Gooeesicun) estate of Lord Tweedmouth at Inverness-Shire, Scotland. These records were released to public notice in Country Life in 1952, when Lord Tweedmouth's great-nephew, the sixth Earl of Ilchester, historian and sportsman, published material that had been left by his ancestor. They provided factual confirmation to the stories that had been handed down through generations. Goldens are outgoing, trustworthy, and eager-to-please family dogs, and relatively easy to train. They take a joyous and playful approach to life and maintain this puppyish behavior into adulthood. These energetic, powerful gundogs enjoy outdoor play. For a breed built to retrieve waterfowl for hours on end, swimming and fetching are natural pastimes. "
     },
     {
         "id": 12,
         "dog-name-en": "Labrador Retriever",
         "dog-name-cn": "拉布拉多尋回犬",
-        "description": "The Labrador Retriever or Labrador is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the colony of Newfoundland (now a province of Canada), and was named after the Labrador region of that colony. It is among the most commonly kept dogs in several countries, particularly in the Western world. The Labrador is loyal, obedient and playful. It was bred as a sporting and hunting dog, but is widely kept as a companion dog. It may also be trained as a guide or assistance dog, or for rescue or therapy work."
+        "dogPlayFulness": 5,
+        "dogEnergy": 5,
+        "description": "The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog. The sturdy, well-balanced Labrador Retriever can, depending on the sex, stand from 21.5 to 24.5 inches at the shoulder and weigh between 55 to 80 pounds. The dense, hard coat comes in yellow, black, and a luscious chocolate. The head is wide, the eyes glimmer with kindliness, and the thick, tapering 'otter tail' seems to be forever signaling the breed's innate eagerness. Labs are famously friendly. They are companionable housemates who bond with the whole family, and they socialize well with neighbor dogs and humans alike. But don't mistake his easygoing personality for low energy: The Lab is an enthusiastic athlete that requires lots of exercise, like swimming and marathon games of fetch, to keep physically and mentally fit."
     },
     {
         "id": 13,
         "dog-name-en": "Smooth Fox Terrier",
         "dog-name-cn": "短毛獵狐㹴",
+        "dogPlayFulness": 4,
+        "dogEnergy": 4,
         "description": "The Smooth Fox Terrier is a breed of dog, one of many terrier breeds. It was the first breed in the fox terrier family to be given official recognition by The Kennel Club (circa 1875; breed standard 1876). It is well known, and although not a widely popular breed today outside hunting and show circles, it is extremely significant due to the large number of terriers believed descended from the breed."
     },
     {
         "id": 14,
         "dog-name-en": "Welsh Springer Spaniel",
         "dog-name-cn": "威爾斯激飛獵犬",
+        "dogPlayFulness": 4,
+        "dogEnergy": 3,
         "description": "The Welsh Springer Spaniel (Cymraeg: Llamgi Cymru) is a breed of dog and a member of the spaniel family. Thought to be comparable to the old Land Spaniel, they are similar to the English Springer Spaniel and historically have been referred to as both the Welsh Spaniel and the Welsh Cocker Spaniel. They were relatively unknown until a succession of victories in dog trials by the breed increased its popularity. Following recognition by The Kennel Club in 1902, the breed gained the modern name of Welsh Springer Spaniel. The breed's coat only comes in a single colour combination of white with red markings, usually in a piebald pattern. Loyal and affectionate, they can become very attached to family members and are wary of strangers. Health conditions are limited to those common among many breeds of dog, although they are affected more than average by hip dysplasia and some eye conditions. They are a working dog, bred for hunting, and while not as rare as some varieties of spaniel, they are rarer than the more widely known English Springer Spaniel with which they are sometimes confused."
     },
     {
         "id": 15,
         "dog-name-en": "Poodle",
         "dog-name-cn": "貴婦犬",
-        "description": "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog. The breed is divided into four varieties based on size, the Standard Poodle, Medium Poodle, Miniature Poodle and Toy Poodle, although the Medium Poodle variety is not universally recognised. The Poodle most likely originated in Germany, although it is also claimed to be from France. The Standard Poodle was originally used by wildfowl hunters to retrieve game from water. The smaller varieties of the breed were bred from the original in France where they were once commonly used as circus performers, but have become popular companion dogs."
+        "dogPlayFulness": 5,
+        "dogEnergy": 4,
+        "description": "Whether Standard, Miniature, or Toy, and either black, white, or apricot, the Poodle stands proudly among dogdom¿s true aristocrats. Beneath the curly, low-allergen coat is an elegant athlete and companion for all reasons and seasons. Poodles come in three size varieties: Standards should be more than 15 inches tall at the shoulder; Miniatures are 15 inches or under; Toys stand no more than 10 inches. All three varieties have the same build and proportions. At dog shows, Poodles are usually seen in the elaborate Continental clip. Most pet owners prefer the simpler Sporting clip, in which the coat is shorn to follow the outline of the squarely built, smoothly muscled body.  Forget any preconceived notions about Poodles you may have: Poodles are eager, athletic, and wickedly smart dogs of remarkable versatility. The Standard, with his greater size and strength, is the best all-around athlete of the family, but all Poodles can be trained with great success."
     },
     {
         "id": 16,
         "dog-name-en": "Schnauzer",
         "dog-name-cn": "史納莎",
-        "description": "A Schnauzer is a dog breed type that originated in Germany from the 14th to 16th centuries.The term comes from the German word for \"snout\" and means colloquially \"moustache\",or \"whiskered snout\",because of the dog's distinctively bearded snout. Initially it was called Wire-Haired Pinscher, while Schnauzer was adopted in 1879."
+        "dogPlayFulness": 4,
+        "dogEnergy": 3,
+        "description": "The bold, bewhiskered Standard Schnauzer is a high-spirited farm dog from Germany. They are the sometimes-willful but ever reliable medium-sized members of the Schnauzer family of breeds. The Standard's sporty look is a canine classic. A medium-size dog weighing between 35 and 45 pounds, the Standard Schnauzer is truly the standard Schnauzer: larger than Miniatures, smaller than Giants. Schnauzers of all three sizes share several breed hallmarks: a wiry, tight-fitting coat of pure black or 'pepper and salt'; a robust, square-built frame; and an elongated head furnished with arched eyebrows and bristly whiskers, framing eyes gleaming with keen intelligence. Standards are sociable companions, alert watchdogs, enthusiastic backyard squirrel chasers, and are good with kids and protective of loved ones. Approached with a firm but gentle hand, Standards train beautifully. Owners must provide outlets for their dog's upbeat athleticism and highly developed senses."
     },
     {
         "id": 17,
         "dog-name-en": "Bichon Frise",
         "dog-name-cn": "比熊犬",
-        "description": "A Bichon Frise is a small breed of dog of the bichon type. Appearance is similar to Maltese. They rarely shed their hair naturally, so the hair needs to be groomed. The color is generally white."
+        "dogPlayFulness": 4,
+        "dogEnergy": 4,
+        "description": "The small but sturdy and resilient Bichon Frise stands among the world's great 'personality dogs.' Since antiquity, these irresistible canine comedians have relied on charm, beauty, and intelligence to weather history's ups and downs. A good-size Bichon will stand a shade under a foot tall at the shoulder. The breed's glory is a white hypoallergenic coat, plush and velvety to the touch, featuring rounded head hair that sets off the large, dark eyes and black leathers of the nose and lips. Bichons are adaptable companions who get on well with other dogs and children. Alert and curious, Bichons make nice little watchdogs'¿but they are lovers, not fighters, and operate under the assumption that there are no strangers, just friends they haven't met yet. Their confidence and size make them ideal city dogs. Bichons train nicely and enjoy performing for their loved ones. Finally, there's the happy-go-lucky Bichon personality that draws smiles and hugs wherever they go."
     },
     {
         "id": 18,
         "dog-name-en": "Dobermann",
         "dog-name-cn": "杜賓犬",
+        "dogPlayFulness": 3,
+        "dogEnergy": 3,
         "description": "The Dobermann, or Doberman Pinscher in the United States and Canada, is a medium-large breed of domestic dog that was originally developed around 1890 by Louis Dobermann, a tax collector from Germany.The Dobermann has a long muzzle. It stands on its pads and is not usually heavy-footed. Ideally, they have an even and graceful gait. Traditionally, the ears are cropped and posted and the tail is docked. However, in some countries, these procedures are now illegal and it is often considered cruel and unnecessary. Dobermans have markings on the chest, paws/legs, muzzle, above the eyes, and underneath the tail. Dobermanns are known to be intelligent, alert, and tenaciously loyal companions and guard dogs.Personality varies a great deal between each individual but, if taken care of and properly trained, they are generally considered to be loving and devoted companions. The Dobermann is driven, strong, and sometimes stubborn. With a consistent approach, they can be easy to train and will learn very quickly."
     },
     {
         "id": 19,
         "dog-name-en": "Pomeranian",
         "dog-name-cn": "松鼠狗",
-        "description": "The Pomeranian (often known as a Pom) is a breed of dog of the Spitz type that is named for the Pomerania region in north-west Poland and north-east Germany in Central Europe. Classed as a toy dog breed because of its small size, the Pomeranian is descended from larger Spitz-type dogs, specifically the German Spitz. It has been determined by the Fédération Cynologique Internationale to be part of the German Spitz breed; and in many countries, they are known as the Zwergspitz (\"Dwarf Spitz\")."
+        "dogPlayFulness": 3,
+        "dogEnergy": 3,
+        "description": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds. ¿The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red. Alert and intelligent, Pomeranians are easily trained and make fine watchdogs and perky pets for families with children old enough to know the difference between a toy dog and a toy. Poms are active but can be exercised with indoor play and short walks, so they are content in both the city and suburbs. They will master tricks and games with ease, though their favorite activity is providing laughs and companionship to their special human."
     },
     {
         "id": 20,
         "dog-name-en": "Great Dane",
         "dog-name-cn": "大丹犬",
-        "description": "The Great Dane or German Mastiff is a historic breed of large sighthound-mastiff dog from Germany. The Great Dane descends from German hunting dogs from the Middle Ages, and is one of the largest breeds in the world."
+        "dogPlayFulness": 4,
+        "dogEnergy": 4,
+        "description": "The easygoing Great Dane, the mighty 'Apollo of Dogs,' is a total joy to live with, but owning a dog of such imposing size, weight, and strength is a commitment not to be entered into lightly. This breed is indeed great, but not a Dane. As tall as 32 inches at the shoulder, Danes tower over most other dogs and when standing on their hind legs, they are taller than most people. These powerful giants are the picture of elegance and balance, with the smooth and easy stride of born noblemen. The coat comes in different colors and patterns, perhaps the best-known being the black-and-white patchwork pattern known as 'harlequin.' Despite their sweet nature, Danes are alert home guardians. Just the sight of these gentle giants is usually enough to make intruders think twice. But those foolish enough to mistake the breed's friendliness for softness will meet a powerful foe of true courage and spirit. Patient with kids, Danes are people pleasers who make friends easily."
     }
 ]

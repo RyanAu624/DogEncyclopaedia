@@ -34,7 +34,11 @@ struct HomeView: View {
                     NavigationLink(isActive: $showView) {
                         ForEach (datas.dogs) { dog in
                             if res == dog.id {
-                                DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                                DogDetailView(dogImage: "\(dog.id)",
+                                              dogVariety: "\(dog.dog_name_en)",
+                                              dogVarietyDetail: "\(dog.description)",
+                                              dogPlayFulness: dog.dogPlayFulness,
+                                              dogEnergy: dog.dogEnergy)
                             }
                         }
                     } label: {
@@ -82,7 +86,11 @@ struct HomeView: View {
                             ForEach (datas.dogs) { dog in
                                 ZStack(alignment: .leading) {
                                     NavigationLink(destination: {
-                                        DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                                        DogDetailView(dogImage: "\(dog.id)",
+                                                      dogVariety: "\(dog.dog_name_en)",
+                                                      dogVarietyDetail: "\(dog.description)",
+                                                      dogPlayFulness: dog.dogPlayFulness,
+                                                      dogEnergy: dog.dogEnergy)
                                     }, label: {
                                         EmptyView()
                                     }).opacity(0)
@@ -94,7 +102,11 @@ struct HomeView: View {
                             ForEach (datas.dogs.filter { $0.dog_name_en.contains(searchText)}) { dog in
                                 ZStack(alignment: .leading) {
                                     NavigationLink(destination: {
-                                        DogDetailView(dogImage: "\(dog.id)", dogVariety: "\(dog.dog_name_en)", dogVarietyDetail: "\(dog.description)")
+                                        DogDetailView(dogImage: "\(dog.id)",
+                                                      dogVariety: "\(dog.dog_name_en)",
+                                                      dogVarietyDetail: "\(dog.description)",
+                                                      dogPlayFulness: dog.dogPlayFulness,
+                                                      dogEnergy: dog.dogEnergy)
                                     }, label: {
                                         EmptyView()
                                     }).opacity(0)

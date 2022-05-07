@@ -10,5 +10,7 @@ struct Dog: Decodable, Identifiable{
     let id: Int
     let dog_name_en:String
     let dog_name_cn:String
+    let dogPlayFulness: Int
+    let dogEnergy:Int
     let description:String
 }
