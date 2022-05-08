@@ -141,7 +141,7 @@ struct HomeView: View {
             }
         }
         .sheet(isPresented: $openCameraRoll) {
-            ImagePicker(selectedImage: $imageSelected, sourceType: .photoLibrary)
+            ImagePicker(selectedImage: $imageSelected, sourceType: .camera)
             .onDisappear{
                 if $imageSelected != nil {
                     classifyImage(image: imageSelected)
