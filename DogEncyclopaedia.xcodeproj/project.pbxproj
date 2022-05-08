@@ -18,6 +18,8 @@
 		9A5A55C827FDB01800D6E883 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A55C727FDB01800D6E883 /* Dog.swift */; };
 		9A9CA1C727FD9E6500A65E3F /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */; };
 		9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1C95F27FACAB700EABF23 /* CardView.swift */; };
+		BC8E97B52826C608009F7421 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E97B42826C608009F7421 /* ChatBotView.swift */; };
+		BC8E97B72826C67F009F7421 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E97B62826C67F009F7421 /* BotResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		9A5A55C727FDB01800D6E883 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
 		9AE1C95F27FACAB700EABF23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BC8E97B42826C608009F7421 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		BC8E97B62826C67F009F7421 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				854322F827FFFA8000CF5392 /* ReadData.swift */,
+				BC8E97B62826C67F009F7421 /* BotResponse.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				9A29154227F84888000C7B2D /* HomeView.swift */,
 				9A9CA1C627FD9E6500A65E3F /* DogDetailView.swift */,
 				9AE1C95F27FACAB700EABF23 /* CardView.swift */,
+				BC8E97B42826C608009F7421 /* ChatBotView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,7 +193,9 @@
 				9A29154127F84888000C7B2D /* DogEncyclopaediaApp.swift in Sources */,
 				8548952F280004AD00C236DB /* DogEncyclopaediaClassifierModel.mlmodel in Sources */,
 				9AE1C96027FACAB700EABF23 /* CardView.swift in Sources */,
+				BC8E97B72826C67F009F7421 /* BotResponse.swift in Sources */,
 				854322F627FFFA6900CF5392 /* ImagePicker.swift in Sources */,
+				BC8E97B52826C608009F7421 /* ChatBotView.swift in Sources */,
 				854322F927FFFA8000CF5392 /* ReadData.swift in Sources */,
 				9A5A55C827FDB01800D6E883 /* Dog.swift in Sources */,
 				9A9CA1C727FD9E6500A65E3F /* DogDetailView.swift in Sources */,
@@ -321,7 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DogEncyclopaedia/Preview Content\"";
-				DEVELOPMENT_TEAM = S6SK74QUN6;
+				DEVELOPMENT_TEAM = CJ65322UN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DogEncyclopaedia/Preview Content\"";
-				DEVELOPMENT_TEAM = S6SK74QUN6;
+				DEVELOPMENT_TEAM = CJ65322UN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

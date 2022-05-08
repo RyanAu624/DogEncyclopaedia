@@ -25,6 +25,8 @@ struct HomeView: View {
     @State var showView = false
     @State var res: Int
     
+    @State var showChatBot = false
+    
     let model = DogEncyclopaediaClassifierModel()
         
     var body: some View {
@@ -122,6 +124,14 @@ struct HomeView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
+                        showChatBot = true
+                        
+                    }) {
+                        Image(systemName: "text.bubble")
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
                         openCameraRoll = true
                         
                     }) {
@@ -137,6 +147,9 @@ struct HomeView: View {
                     classifyImage(image: imageSelected)
                 }
             }
+        }
+        .fullScreenCover(isPresented: $showChatBot) {
+            ChatBotView(isPresented: $showChatBot)
         }
     }
     
